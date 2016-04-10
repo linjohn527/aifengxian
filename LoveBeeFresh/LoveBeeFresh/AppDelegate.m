@@ -7,6 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "UMSocial.h"
+#import "GuideViewController.h"
+#import "AD.h"
+#import "MainAD.h"
+#import "ADViewController.h"
+#import "MJExtension.h"
+#import "MainTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +24,123 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self setupUM];
+    
+    [self setupAppTheme];
+    
+    [self addNotifications];
+    
+    [self setupKeyWindow];
+    
     return YES;
+}
+
+
+#pragma mark - 初始化设置
+
+/**
+ *  设置友盟
+ */
+- (void)setupUM {
+
+    [UMSocialData setAppKey:@"5704fd28e0f55a3f92000e7c"];
+    [UMSocialWechatHandler setWXAppId:@"wxb81a61739edd3054" appSecret:@"c62eba630d950ff107e62fe08391d19d" url:@"https://github.com"];
+    [UMSocialSinaSSOHandler openNewSinaSSOWithRedirectURL:@"http://sns.whalecloud.com/sina2/callback"];
+    [UMSocialQQHandler setQQWithAppId:@"" appKey:@"" url:@""];
+    
+    [UMSocialConfig hiddenNotInstallPlatforms:@[UMShareToWechatSession,UMShareToQzone,UMShareToQQ,UMShareToSina,UMShareToWechatTimeline]];
+    
+}
+
+/**
+ *  设置APP主题
+ */
+- (void)setupAppTheme {
+
+    UITabBar *tabBarAppearence = [UITabBar appearance];
+    [tabBarAppearence setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0]];
+    
+    UINavigationBar *navigationBarAppearence = [UINavigationBar appearance];
+    navigationBarAppearence.translucent = NO;
+    
+}
+
+/**
+ *  添加通知
+ */
+- (void)addNotifications {
+
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showMainTabbarControllerSuccess:) name:ADLoadImageSuccess object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showMainTabbarControllerFailure:) name:ADLoadImageFailure object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showMainTabbarController) name:GuideViewControllerDidFinished object:nil];
+}
+
+- (void)showMainTabbarControllerSuccess:(NSNotification *)notif {
+
+    UIImage *adImage = notif.object;
+    
+    MainTabBarController *mainTaBarVC = [[MainTabBarController alloc] init];
+    mainTaBarVC.adImage = adImage;
+    
+    self.window.rootViewController = mainTaBarVC;
+}
+
+- (void)showMainTabbarControllerFailure:(NSNotification *)notif {
+
+    MainTabBarController *mainTaBarVC = [[MainTabBarController alloc] init];
+    self.window.rootViewController = mainTaBarVC;
+}
+
+- (void)showMainTabbarController {
+
+    MainTabBarController *mainTaBarVC = [[MainTabBarController alloc] init];
+    self.window.rootViewController = mainTaBarVC;
+}
+
+- (void)dealloc {
+
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+/**
+ *  创建主窗口
+ */
+- (void)setupKeyWindow {
+
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+   
+    
+    NSString *isFirstOpenApp = [[NSUserDefaults standardUserDefaults] objectForKey:@"isFirstOpenApp"];
+   
+   
+    
+    if (!isFirstOpenApp) {//第一次打开APP,播放导航页
+        
+        [[NSUserDefaults standardUserDefaults] setObject:@"isFirstOpenApp" forKey:@"isFirstOpenApp"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+         self.window.rootViewController = [[GuideViewController alloc] init];
+        
+    } else {//不是第一次打开APP，加载广告页
+    
+        NSError *error = nil;
+        
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"AD" ofType:nil];
+        NSData *data = [NSData dataWithContentsOfFile:path];
+        NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
+        //MY_LOG(@"%@",dict);
+        MainAD *mainAD = [MainAD mj_objectWithKeyValues:dict];
+        
+       ADViewController *adVC = [[ADViewController alloc] init];
+        
+        adVC.imageName = mainAD.data.img_name;
+        
+        self.window.rootViewController = adVC;
+    }
+    
+     [self.window makeKeyAndVisible];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

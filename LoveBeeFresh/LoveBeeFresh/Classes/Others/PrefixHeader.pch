@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  LoveBeeFresh
+//
+//  Created by linjohn on 4/8/16.
+//  Copyright © 2016 linjohn. All rights reserved.
+//
+
+#define PrefixHeader_pch
+
+
+#define RGB(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+
+//常用颜色
+#define GLOBAL_BACKGROUD_COLOR RGB(239,239,239)
+#define NAVIGATION_YELLOW_COLOR RGB(253,212,49)
+#define TEXT_GRAY_COLOR RGB(130,130,139)
+#define TEXT_BLACK_COLOR RGB(50,50,50)
+
+
+//常量名称
+#import "Constant.h"
+
+//扩展
+#import "UIView+Extension.h"
+
+//屏幕款高
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
+
+#import "UIDevice+Extension.h"
+
+#ifdef DEBUG
+
+#define MY_LOG(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define MY_LOG(...)
+
+
+
+#endif /* PrefixHeader_pch */
