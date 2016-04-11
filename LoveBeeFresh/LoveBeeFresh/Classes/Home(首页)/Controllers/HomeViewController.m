@@ -12,14 +12,11 @@
 
 - (void)viewDidLoad {
     
+    [super viewDidLoad];
+    
     self.view.backgroundColor = [UIColor whiteColor];
 
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = CGRectMake(50, 100, 50, 40);
-    btn.backgroundColor = [UIColor orangeColor];
-    [btn addTarget:self action:@selector(btClcik) forControlEvents:UIControlEventTouchUpInside];
-    
-    [self.view addSubview:btn];
+    self.navigationController.navigationBar.barTintColor = NAVIGATION_YELLOW_COLOR;
 }
 
 - (void)btClcik {

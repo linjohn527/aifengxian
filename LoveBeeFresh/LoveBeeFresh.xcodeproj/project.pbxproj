@@ -45,6 +45,15 @@
 		1705BF5F1CB919AC000E15B0 /* AD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1705BF5E1CB919AC000E15B0 /* AD.m */; };
 		1705BF621CB91B12000E15B0 /* MainAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1705BF611CB91B12000E15B0 /* MainAD.m */; };
 		1705BF651CB91D82000E15B0 /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1705BF641CB91D82000E15B0 /* UIDevice+Extension.m */; };
+		170ABCCA1CBB89E100D23E6F /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170ABCC91CBB89E100D23E6F /* AnimationViewController.m */; };
+		170ABCCD1CBB920500D23E6F /* SelectedAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170ABCCC1CBB920500D23E6F /* SelectedAddressViewController.m */; };
+		170ABCD21CBB939E00D23E6F /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 170ABCD11CBB939E00D23E6F /* UIBarButtonItem+Extension.m */; };
+		170ABCD51CBB94BC00D23E6F /* LeftBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 170ABCD41CBB94BC00D23E6F /* LeftBarButton.m */; };
+		170ABCD81CBB94CD00D23E6F /* RightBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 170ABCD71CBB94CD00D23E6F /* RightBarButton.m */; };
+		170ABCDB1CBB981000D23E6F /* AddressTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 170ABCDA1CBB981000D23E6F /* AddressTitleView.m */; };
+		170ABCDE1CBB9C1C00D23E6F /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 170ABCDD1CBB9C1C00D23E6F /* UserInfo.m */; };
+		170ABCE11CBB9C8100D23E6F /* AddressData.m in Sources */ = {isa = PBXBuildFile; fileRef = 170ABCE01CBB9C8100D23E6F /* AddressData.m */; };
+		170ABCE41CBB9C8F00D23E6F /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 170ABCE31CBB9C8F00D23E6F /* Address.m */; };
 		1711921C1CBA24B4005A754E /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1711921B1CBA24B4005A754E /* BaseNavigationController.m */; };
 		1711921F1CBA24DD005A754E /* AnimationTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1711921E1CBA24DD005A754E /* AnimationTabBarController.m */; };
 		171192221CBA2562005A754E /* RAMAnimatedTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 171192211CBA2562005A754E /* RAMAnimatedTabBarItem.m */; };
@@ -140,6 +149,24 @@
 		1705BF611CB91B12000E15B0 /* MainAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainAD.m; sourceTree = "<group>"; };
 		1705BF631CB91D82000E15B0 /* UIDevice+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extension.h"; sourceTree = "<group>"; };
 		1705BF641CB91D82000E15B0 /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extension.m"; sourceTree = "<group>"; };
+		170ABCC81CBB89E100D23E6F /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		170ABCC91CBB89E100D23E6F /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		170ABCCB1CBB920500D23E6F /* SelectedAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedAddressViewController.h; sourceTree = "<group>"; };
+		170ABCCC1CBB920500D23E6F /* SelectedAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedAddressViewController.m; sourceTree = "<group>"; };
+		170ABCD01CBB939E00D23E6F /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		170ABCD11CBB939E00D23E6F /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		170ABCD31CBB94BC00D23E6F /* LeftBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftBarButton.h; sourceTree = "<group>"; };
+		170ABCD41CBB94BC00D23E6F /* LeftBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftBarButton.m; sourceTree = "<group>"; };
+		170ABCD61CBB94CD00D23E6F /* RightBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightBarButton.h; sourceTree = "<group>"; };
+		170ABCD71CBB94CD00D23E6F /* RightBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightBarButton.m; sourceTree = "<group>"; };
+		170ABCD91CBB981000D23E6F /* AddressTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressTitleView.h; sourceTree = "<group>"; };
+		170ABCDA1CBB981000D23E6F /* AddressTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressTitleView.m; sourceTree = "<group>"; };
+		170ABCDC1CBB9C1C00D23E6F /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		170ABCDD1CBB9C1C00D23E6F /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		170ABCDF1CBB9C8100D23E6F /* AddressData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressData.h; sourceTree = "<group>"; };
+		170ABCE01CBB9C8100D23E6F /* AddressData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressData.m; sourceTree = "<group>"; };
+		170ABCE21CBB9C8F00D23E6F /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		170ABCE31CBB9C8F00D23E6F /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
 		1711921A1CBA24B4005A754E /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		1711921B1CBA24B4005A754E /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		1711921D1CBA24DD005A754E /* AnimationTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTabBarController.h; sourceTree = "<group>"; };
@@ -324,6 +351,26 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		170ABCCE1CBB938200D23E6F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		170ABCCF1CBB938200D23E6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				170ABCDC1CBB9C1C00D23E6F /* UserInfo.h */,
+				170ABCDD1CBB9C1C00D23E6F /* UserInfo.m */,
+				170ABCDF1CBB9C8100D23E6F /* AddressData.h */,
+				170ABCE01CBB9C8100D23E6F /* AddressData.m */,
+				170ABCE21CBB9C8F00D23E6F /* Address.h */,
+				170ABCE31CBB9C8F00D23E6F /* Address.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		171192231CBA258C005A754E /* RAMAnimation */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,6 +439,8 @@
 		173354E61CB7D0BA0038FC64 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				170ABCCE1CBB938200D23E6F /* Data */,
+				170ABCCF1CBB938200D23E6F /* Model */,
 				173354E71CB7D0BA0038FC64 /* Category */,
 				173354E81CB7D0BA0038FC64 /* Controllers */,
 				173354E91CB7D0BA0038FC64 /* Views */,
@@ -403,6 +452,8 @@
 		173354E71CB7D0BA0038FC64 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				170ABCD01CBB939E00D23E6F /* UIBarButtonItem+Extension.h */,
+				170ABCD11CBB939E00D23E6F /* UIBarButtonItem+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -412,6 +463,10 @@
 			children = (
 				171192331CBA4F5D005A754E /* HomeViewController.h */,
 				171192341CBA4F5D005A754E /* HomeViewController.m */,
+				170ABCC81CBB89E100D23E6F /* AnimationViewController.h */,
+				170ABCC91CBB89E100D23E6F /* AnimationViewController.m */,
+				170ABCCB1CBB920500D23E6F /* SelectedAddressViewController.h */,
+				170ABCCC1CBB920500D23E6F /* SelectedAddressViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -419,6 +474,12 @@
 		173354E91CB7D0BA0038FC64 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				170ABCD31CBB94BC00D23E6F /* LeftBarButton.h */,
+				170ABCD41CBB94BC00D23E6F /* LeftBarButton.m */,
+				170ABCD61CBB94CD00D23E6F /* RightBarButton.h */,
+				170ABCD71CBB94CD00D23E6F /* RightBarButton.m */,
+				170ABCD91CBB981000D23E6F /* AddressTitleView.h */,
+				170ABCDA1CBB981000D23E6F /* AddressTitleView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -826,20 +887,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170ABCE11CBB9C8100D23E6F /* AddressData.m in Sources */,
+				170ABCCD1CBB920500D23E6F /* SelectedAddressViewController.m in Sources */,
+				170ABCCA1CBB89E100D23E6F /* AnimationViewController.m in Sources */,
 				171192381CBA4F81005A754E /* SuperMarketViewController.m in Sources */,
 				1711922C1CBA300F005A754E /* ShopCartRedDotView.m in Sources */,
 				171192221CBA2562005A754E /* RAMAnimatedTabBarItem.m in Sources */,
 				171192321CBA452E005A754E /* MainTabBarController.m in Sources */,
+				170ABCDE1CBB9C1C00D23E6F /* UserInfo.m in Sources */,
+				170ABCE41CBB9C8F00D23E6F /* Address.m in Sources */,
 				173354D31CB789E40038FC64 /* AppDelegate.m in Sources */,
 				1711923E1CBA4FC0005A754E /* MineViewController.m in Sources */,
 				1711921C1CBA24B4005A754E /* BaseNavigationController.m in Sources */,
 				1711921F1CBA24DD005A754E /* AnimationTabBarController.m in Sources */,
 				1711922F1CBA305A005A754E /* UIView+Extension.m in Sources */,
 				1705BF651CB91D82000E15B0 /* UIDevice+Extension.m in Sources */,
+				170ABCDB1CBB981000D23E6F /* AddressTitleView.m in Sources */,
 				1705BF5B1CB8FA73000E15B0 /* GuideViewCell.m in Sources */,
 				171192291CBA2629005A754E /* RAMBounceAnimation.m in Sources */,
 				1711923B1CBA4FA2005A754E /* ShopCartViewController.m in Sources */,
 				173355271CB7D52C0038FC64 /* BaseViewController.m in Sources */,
+				170ABCD51CBB94BC00D23E6F /* LeftBarButton.m in Sources */,
 				173354FE1CB7D2490038FC64 /* ADViewController.m in Sources */,
 				1705BF5F1CB919AC000E15B0 /* AD.m in Sources */,
 				1705BF551CB8F2C0000E15B0 /* Constant.m in Sources */,
@@ -848,6 +916,8 @@
 				171192261CBA25FB005A754E /* RAMItemAnimation.m in Sources */,
 				171192351CBA4F5D005A754E /* HomeViewController.m in Sources */,
 				1705BF621CB91B12000E15B0 /* MainAD.m in Sources */,
+				170ABCD81CBB94CD00D23E6F /* RightBarButton.m in Sources */,
+				170ABCD21CBB939E00D23E6F /* UIBarButtonItem+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
