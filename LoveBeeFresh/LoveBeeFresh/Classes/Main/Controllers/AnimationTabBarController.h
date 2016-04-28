@@ -20,5 +20,6 @@
 
 - (void)createCustomIcons:(NSDictionary<__kindof NSString *,UIView *> *)containers;
 - (NSDictionary<__kindof NSString *,UIView *> *)createViewContainsers;
+- (void)setSelectedIndex:(NSUInteger)from to:(NSUInteger)to;
 
 @end

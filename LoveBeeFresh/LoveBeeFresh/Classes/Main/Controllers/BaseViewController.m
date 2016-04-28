@@ -20,6 +20,7 @@
     
     self.view.backgroundColor = GLOBAL_BACKGROUD_COLOR;
     
+    self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
 

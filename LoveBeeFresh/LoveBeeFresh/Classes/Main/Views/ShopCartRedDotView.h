@@ -16,4 +16,8 @@
 
 + (instancetype)shareRedDotView;
 
+- (void)addProductToRedDotView:(BOOL)animated;
+- (void)reduceProductFromRedDotView:(BOOL)animated;
+
+
 @end

@@ -38,4 +38,18 @@
     return barButtonItem;
 }
 
+
++ (instancetype)itemWithTitle:(NSString *)title titleColor:(UIColor *)titleColor target:(id)target action:(SEL)action {
+
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, 0, 60, 44);
+    [btn setTitle:title forState:UIControlStateNormal];
+    [btn setTitleColor:titleColor forState:UIControlStateNormal];
+    btn.titleLabel.font = [UIFont systemFontOfSize:14];
+    [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    btn.contentEdgeInsets = UIEdgeInsetsMake(0, 0, 0, -25);
+    
+    return [[UIBarButtonItem alloc] initWithCustomView:btn];
+}
+
 @end

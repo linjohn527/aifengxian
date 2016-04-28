@@ -53,7 +53,7 @@ static ShopCartRedDotView *sharedInstance;
 
     self.backgroundColor = [UIColor clearColor];
     
-    _redImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"red"]];
+    _redImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"reddot"]];
     [self addSubview:_redImageView];
     
     _numberLabel = [[UILabel alloc] init];
@@ -101,7 +101,7 @@ static ShopCartRedDotView *sharedInstance;
 
 - (void)addProductToRedDotView:(BOOL)animated {
 
-    _buyNumber ++;
+    self.buyNumber++;
     
     if (animated) {
         
@@ -113,7 +113,7 @@ static ShopCartRedDotView *sharedInstance;
 
     if (_buyNumber > 0) {
         
-        _buyNumber --;
+        self.buyNumber--;
     }
     
     if (animated) {

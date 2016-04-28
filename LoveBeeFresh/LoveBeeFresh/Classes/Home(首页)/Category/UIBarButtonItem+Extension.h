@@ -19,4 +19,6 @@ typedef enum {
 
 + (UIBarButtonItem *)itemWithTitle:(NSString *)title titleColor:(UIColor *)titleColor image:(NSString *)image higlightImg:(NSString *)higlightImg target:(id)target action:(SEL)action type:(BarButtonItemType)type;
 
++ (instancetype)itemWithTitle:(NSString *)title titleColor:(UIColor *)titleColor target:(id)target action:(SEL)action;
+
 @end

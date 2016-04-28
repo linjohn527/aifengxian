@@ -19,3 +19,12 @@ UIKIT_EXTERN NSString *const SearchViewControllerDeinit;
 
 UIKIT_EXTERN CGFloat const ShopCartRedDotViewAnimationDuration;
 
+UIKIT_EXTERN NSString * const HomeTableHeadViewDidChange;
+
+UIKIT_EXTERN CGFloat const HomeCollectionViewCellMargin;
+
+UIKIT_EXTERN CGFloat const NavigationH;
+
+UIKIT_EXTERN NSString * const HomeGoodsInventoryProblem;
+
+UIKIT_EXTERN NSString * const ShopCartBuyPriceDidChange;

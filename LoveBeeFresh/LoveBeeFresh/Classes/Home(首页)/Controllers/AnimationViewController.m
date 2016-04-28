@@ -10,10 +10,6 @@
 
 @interface AnimationViewController ()
 
-/** layers */
-@property(nonatomic,strong)NSMutableArray<CALayer *> *animationLayers;
-/** big layers */
-@property(nonatomic,strong)NSMutableArray<CALayer *> *animationBigLayers;
 
 @end
 
@@ -129,17 +125,17 @@
         CALayer *transitionLayer = [self.animationLayers lastObject];
         transitionLayer.hidden = YES;
         [transitionLayer removeFromSuperlayer];
-        [self.animationLayers removeLastObject];
+        [self.animationLayers removeObject:transitionLayer];
         
         [self.view.layer removeAnimationForKey:@"addProducts"];
     }
     
     if (self.animationBigLayers.count > 0) {
         
-        CALayer *transitionLayer = [self.animationLayers lastObject];
+        CALayer *transitionLayer = [self.animationBigLayers lastObject];
         transitionLayer.hidden = YES;
         [transitionLayer removeFromSuperlayer];
-        [self.animationLayers removeLastObject];
+        [self.animationLayers removeObject:transitionLayer];
         
         [self.view.layer removeAnimationForKey:@"addProducts"];
     }

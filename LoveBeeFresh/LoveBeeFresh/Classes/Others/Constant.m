@@ -16,3 +16,15 @@ NSString *const GuideViewControllerDidFinished = @"GuideViewControllerDidFinishe
 NSString *const SearchViewControllerDeinit = @"SearchViewControllerDeinit";
 
 CGFloat const ShopCartRedDotViewAnimationDuration = 0.6;
+
+NSString * const HomeTableHeadViewDidChange = @"HomeTableHeadViewDidChange";
+
+NSString * const HomeGoodsInventoryProblem = @"HomeGoodsInventoryProblem";
+
+NSString * const ShopCartBuyPriceDidChange = @"ShopCartBuyPriceDidChange";
+
+
+CGFloat const HomeCollectionViewCellMargin = 10;
+
+CGFloat const NavigationH = 64;
+

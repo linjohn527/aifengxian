@@ -135,7 +135,7 @@
                     
                     ShopCartRedDotView *reddotView = [ShopCartRedDotView shareRedDotView];
                     
-                    reddotView.frame = CGRectMake(imageH + 3, -3, 15, 15);
+                    reddotView.frame = CGRectMake(imageH + 1, -3, 15, 15);
                     [icon addSubview:reddotView];
                     self.shopCartIcon = icon;
                 }

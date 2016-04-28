@@ -10,6 +10,12 @@
 
 @interface AnimationViewController : BaseViewController
 
+/** layers */
+@property(nonatomic,strong)NSMutableArray<CALayer *> *animationLayers;
+/** big layers */
+@property(nonatomic,strong)NSMutableArray<CALayer *> *animationBigLayers;
+
+
 - (void)addProductsAnimation:(UIImageView *)imageView;
 - (void)addProductsToBigShopCartAnimation:(UIImageView *)imageView;
 
