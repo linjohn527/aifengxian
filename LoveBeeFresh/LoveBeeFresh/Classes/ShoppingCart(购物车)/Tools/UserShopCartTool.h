@@ -28,4 +28,6 @@
 
 - (NSString *)getAllProductsPrice;
 
+- (NSArray *)getShopCartProducts;
+
 @end

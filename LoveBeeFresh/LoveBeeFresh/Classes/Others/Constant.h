@@ -28,3 +28,13 @@ UIKIT_EXTERN CGFloat const NavigationH;
 UIKIT_EXTERN NSString * const HomeGoodsInventoryProblem;
 
 UIKIT_EXTERN NSString * const ShopCartBuyPriceDidChange;
+
+UIKIT_EXTERN NSString * const ShopCartProductDidRemove;
+
+UIKIT_EXTERN NSString * const ShopCartProductBuyNumberDidChange;
+
+
+UIKIT_EXTERN CGFloat const  ShopCartRowHeight;
+
+UIKIT_EXTERN CGFloat const  HotViewMargin;
+

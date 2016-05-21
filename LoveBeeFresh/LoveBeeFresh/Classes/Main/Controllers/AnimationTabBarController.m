@@ -10,7 +10,7 @@
 #import "ShopCartRedDotView.h"
 #import "RAMAnimatedTabBarItem.h"
 #import "BaseNavigationController.h"
-
+#import "ShopCartViewController.h"
 
 @interface AnimationTabBarController ()
 
@@ -36,6 +36,7 @@
 - (void)viewDidLoad {
 
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(searchViewControllerDeinit) name:SearchViewControllerDeinit object:nil];
+    
     
     _iconsImageName = @[@"v2_home", @"v2_order", @"shopCart", @"v2_my"];
     _iconsSelectedImageName = @[@"v2_home_r", @"v2_order_r", @"shopCart_r", @"v2_my_r"];
@@ -186,7 +187,7 @@
         
         UIViewController *vc = self.childViewControllers[self.selectedIndex];
         
-        UIViewController *rootVC = [[UIViewController alloc] init];
+        ShopCartViewController *rootVC = [[ShopCartViewController alloc] init];
         BaseNavigationController *nav = [[BaseNavigationController alloc] initWithRootViewController:rootVC];
         
         [vc presentViewController:nav animated:YES completion:nil];

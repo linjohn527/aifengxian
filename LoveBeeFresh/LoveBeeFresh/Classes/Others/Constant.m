@@ -23,8 +23,15 @@ NSString * const HomeGoodsInventoryProblem = @"HomeGoodsInventoryProblem";
 
 NSString * const ShopCartBuyPriceDidChange = @"ShopCartBuyPriceDidChange";
 
+NSString * const ShopCartProductDidRemove = @"ShopCartProductDidRemove";
+
+NSString * const ShopCartProductBuyNumberDidChange = @"ShopCartProductBuyNumberDidChange";
 
 CGFloat const HomeCollectionViewCellMargin = 10;
 
 CGFloat const NavigationH = 64;
+
+CGFloat const  ShopCartRowHeight = 50;
+
+CGFloat const  HotViewMargin = 10;
 

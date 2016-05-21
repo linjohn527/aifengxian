@@ -68,12 +68,12 @@
 
 - (void)leftItemClick {
 
-    
+    MY_LOG(@"扫一扫");
 }
 
 - (void)rightItemClick {
 
-    
+    MY_LOG(@"搜 索");
 }
 
 @end

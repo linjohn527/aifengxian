@@ -82,12 +82,12 @@ static  UserShopCartTool *instance;
     
     for (Goods *goods in self.supermarketProducts) {
         
-        CGFloat price = [goods.partner_price floatValue];
+        CGFloat price = [goods.partner_price floatValue] * goods.userBuyNumber;
         
         totalPrice += price;
     }
 
-    return [[NSString stringWithFormat:@"%f",totalPrice] cleanDecimalPointZero];
+    return [[NSString stringWithFormat:@"%.2f",totalPrice] cleanDecimalPointZero];
 }
 
 @end

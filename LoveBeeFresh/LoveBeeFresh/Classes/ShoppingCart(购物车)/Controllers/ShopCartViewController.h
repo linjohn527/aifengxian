@@ -6,8 +6,8 @@
 //  Copyright © 2016 linjohn. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ShopCartViewController : UIViewController
+@interface ShopCartViewController : BaseViewController
 
 @end

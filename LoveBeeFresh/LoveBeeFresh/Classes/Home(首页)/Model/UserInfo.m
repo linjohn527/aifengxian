@@ -29,9 +29,9 @@
     return _allAddress;
 }
 
-static  UserInfo *userInfo;
 + (instancetype)sharedUserInfo {
-
+    
+    static  UserInfo *userInfo;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         

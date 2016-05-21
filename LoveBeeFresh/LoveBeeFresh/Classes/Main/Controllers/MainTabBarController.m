@@ -21,7 +21,7 @@
 @property(nonatomic,strong)UIImageView *adImageView;
 
 /**  */
-@property(assign,nonatomic)bool isFirstLoadTabBarVC;
+@property(assign,nonatomic)BOOL isFirstLoadTabBarVC;
 
 
 @end
@@ -76,11 +76,11 @@
     if (!self.isFirstLoadTabBarVC) {
         NSDictionary *containers = [self createViewContainsers];
         [self createCustomIcons:containers];
-        
-    } else {
-    
         self.isFirstLoadTabBarVC = YES;
+        
     }
+    
+    
     
    
 }
