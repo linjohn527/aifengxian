@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T12:17:19.403Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="0Pfu-_xxVF4uJClDjey2" version="14.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-14T12:18:45.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="rhxYbSMQrKmQHILldkIb" version="14.2.2" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D4E1F5" math="0" shadow="0">
       <root>
@@ -38,10 +38,10 @@
           <mxGeometry x="148.13" y="241.25" width="161.87" height="48.75" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-15" value="原子任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="514.2" y="273.9" width="265.8" height="40" as="geometry" />
+          <mxGeometry x="494.2" y="240" width="195.8" height="47.49" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-16" value="编排引擎" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="350" y="270.9" width="140" height="49.6" as="geometry" />
+          <mxGeometry x="322.13" y="241.25" width="147.87" height="49.6" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-17" value="任务管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="306.25" y="130" width="120" height="60" as="geometry" />
@@ -101,7 +101,7 @@
           <mxGeometry x="235.41" y="294.8" width="74.59" height="23" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-40" value="任务模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="330" width="90" height="30" as="geometry" />
+          <mxGeometry x="326.25" y="316.6" width="147.87" height="30" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-41" value="文件分发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="505" y="330" width="90" height="30" as="geometry" />
@@ -125,10 +125,10 @@
           <mxGeometry x="155" y="251.39" width="35.07" height="36.1" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-49" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48x48-free-object-icons/48/Science.png;fontColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="520" y="280" width="31" height="31" as="geometry" />
+          <mxGeometry x="500.5" y="250.13" width="31" height="31" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-50" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#EF8F21;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.1_click_failover_orchestration;fontColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="350" y="270" width="40" height="47.8" as="geometry" />
+          <mxGeometry x="326.25" y="241.25" width="40" height="47.8" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-51" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="360" width="90" height="30" as="geometry" />
@@ -137,7 +137,7 @@
           <mxGeometry x="855" y="270.9" width="45" height="43" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-53" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.template;fillColor=#759C3E;gradientColor=none;fontColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="360" y="330" width="30" height="30" as="geometry" />
+          <mxGeometry x="326.25" y="316.1" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-55" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/free-android-icons-animals/24/octopus-24.png;fontColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="322.13" y="730" width="24" height="24" as="geometry" />
@@ -154,7 +154,7 @@
         <mxCell id="H9CU3nUE-carBYAoRNaP-68" value="优先级控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="148.13" y="320.5" width="80" height="26.1" as="geometry" />
         </mxCell>
-        <mxCell id="H9CU3nUE-carBYAoRNaP-69" value="优先级控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H9CU3nUE-carBYAoRNaP-69" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230.94" y="320" width="79.06" height="26.1" as="geometry" />
         </mxCell>
       </root>
