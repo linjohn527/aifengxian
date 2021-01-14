@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T13:12:14.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="OHL4Iw87TO2D7W0jt1jy" version="14.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-14T13:14:07.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="LMnk3pTOt7ZegWUc-DnD" version="14.2.2" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#D4E1F5" math="0" shadow="0">
       <root>
@@ -14,31 +14,31 @@
           <mxGeometry x="109.38" y="484" width="120.62" height="56" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-86" value="Mongo DB" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="700" y="399.7" width="133.31" height="60" as="geometry" />
+          <mxGeometry x="700" y="408.34999999999997" width="133.31" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-85" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="546.69" y="399.7" width="133.31" height="60" as="geometry" />
+          <mxGeometry x="546.3900000000001" y="408.34999999999997" width="133.31" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-84" value="S3" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="399.69000000000005" y="399.70000000000005" width="133.31" height="60" as="geometry" />
+          <mxGeometry x="399.69000000000005" y="410.00000000000006" width="133.31" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-81" value="NAS" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="256.69" y="397.2" width="133.31" height="60" as="geometry" />
+          <mxGeometry x="255.56" y="410.75" width="133.31" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-59" value="MySQL" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="109.38" y="394.7" width="136.87" height="65" as="geometry" />
+          <mxGeometry x="110.14" y="410" width="136.87" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
-          <mxGeometry x="551.64" y="410.75" width="45.12" height="37.9" as="geometry" />
+          <mxGeometry x="551" y="422.24" width="38.36" height="32.22" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mysql_database;" vertex="1" parent="1">
-          <mxGeometry x="113.13" y="402.1" width="37.5" height="50" as="geometry" />
+          <mxGeometry x="113.13" y="410.75" width="37.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-5" value="" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
-          <mxGeometry x="407.5" y="403.1" width="49" height="49" as="geometry" />
+          <mxGeometry x="405.5" y="416.25" width="49" height="49" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-6" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#EF8F21;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.nas_backup;" vertex="1" parent="1">
-          <mxGeometry x="261.45" y="403.00000000000006" width="44.8" height="44.8" as="geometry" />
+          <mxGeometry x="261.45" y="415.95" width="38.55" height="44.8" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-7" value="执行层" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="690" width="50" height="150" as="geometry" />
@@ -140,7 +140,7 @@
           <mxGeometry x="405.00000000000006" y="610.88" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-46" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.mongodb;fontColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="700" y="396.42" width="30" height="61.55" as="geometry" />
+          <mxGeometry x="700" y="408.35" width="30" height="57.97" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-47" value="配置导入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="481" y="328.23" width="70" height="21.92" as="geometry" />
@@ -201,6 +201,9 @@
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-103" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;分布式消息中间件&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#99CCFF;fontFamily=Helvetica;fontColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="109.37999999999994" y="552" width="279.49" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="H9CU3nUE-carBYAoRNaP-104" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;分布式消息中间件&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#99CCFF;fontFamily=Helvetica;fontColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="133.50999999999993" y="352" width="279.49" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
