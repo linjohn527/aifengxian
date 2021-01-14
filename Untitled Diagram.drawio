@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T11:36:27.773Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="42FW6g0nzSGvvrmF3p5Y" version="14.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-14T11:50:03.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="dm8spAQHLCcpUnLC4S1G" version="14.2.2" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry x="442" y="480.75" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-14" value="调度引擎" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="270" width="110" height="50" as="geometry" />
+          <mxGeometry x="231.65" y="273" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-15" value="原子任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="515" y="270" width="225" height="45" as="geometry" />
@@ -118,14 +118,32 @@
         <mxCell id="H9CU3nUE-carBYAoRNaP-46" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.mongodb;fontColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="780" y="387.5" width="31.2" height="71.2" as="geometry" />
         </mxCell>
-        <mxCell id="H9CU3nUE-carBYAoRNaP-47" value="应用部署" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H9CU3nUE-carBYAoRNaP-47" value="配置导入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="505" y="360" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-48" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Workflow.svg;" vertex="1" parent="1">
-          <mxGeometry x="180" y="270" width="48.57" height="50" as="geometry" />
+          <mxGeometry x="180" y="273" width="48.86" height="50.29" as="geometry" />
         </mxCell>
         <mxCell id="H9CU3nUE-carBYAoRNaP-49" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48x48-free-object-icons/48/Science.png;fontColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="544.2" y="279" width="32" height="32" as="geometry" />
+          <mxGeometry x="520" y="279" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="H9CU3nUE-carBYAoRNaP-50" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#EF8F21;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.1_click_failover_orchestration;fontColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="273" width="44.8" height="44.8" as="geometry" />
+        </mxCell>
+        <mxCell id="H9CU3nUE-carBYAoRNaP-51" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H9CU3nUE-carBYAoRNaP-52" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api;fontColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="805" y="267" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="H9CU3nUE-carBYAoRNaP-53" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.template;fillColor=#759C3E;gradientColor=none;fontColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="352.17837209302326" y="320" width="43.02325581395349" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H9CU3nUE-carBYAoRNaP-55" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/free-android-icons-animals/24/octopus-24.png;fontColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="322.13" y="730" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="H9CU3nUE-carBYAoRNaP-56" value="配置导入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="360" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
